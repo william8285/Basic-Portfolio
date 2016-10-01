@@ -19,8 +19,8 @@
 		<div class="background">
 			<div class="content" id="biggercontent">
 				<h1>About Me</h1>
-				<img width="250px" src="/assets/images/avery.jpg"
-				style="float: left"/>
+				<img width="250px" src="../assets/images/avery.jpg" 
+				style="float: left"/> <!-- I fixed the source path for your image. You want to add the .. in front of the forward slash so that the processor knows to go out one directory so it can find the assets folder where the images are stored. This is just like the command line where you use cd .. to go up one directory. Also, make sure that you aren't using inline styles, put all styles in your style sheet! -->
 				<p>
 					I was born in Newport Beach California the summer of 1985. I had a typical middle class upbringing going camping and hiking the weekends I wasn't playing soccer or basketball. 
 				</p>
@@ -34,7 +34,7 @@
 					Despite a dibilitating left shoulder injury suffered while riding a motorcycle, I pursued a very active lifestyle during and after the Marine Corps that took me from the inhosbitable climate of the Himalayas to the beautiful Hawaiian islands scuba diving with whale sharks. Now on to the biggest challenge of all, learning html and css.   	
 				</p>
 			</div>
-			<div class="content">
+			<div class="content"> <!-- having two divs with the same class name will style them both the same way. If you want that to happen, great! But if you don't want that to happen be more specific and call the second one something like contact-box or the like -->
 				<h2>Connect With Me</h2>
 				<a href="http://google.com">text</a>
 				<a href="http://linkedin.com">github</a>
