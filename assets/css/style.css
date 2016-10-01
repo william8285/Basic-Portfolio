@@ -12,7 +12,7 @@
 				margin-left: auto;
 			}
 
-			.header{
+			.header{ /* this is a good start! Use the chrome inspector tool to play with your css before you apply things like margins to your work. it's good practice to see what will happen before you apply it so that you don't waste a lot of time, too */
 				background-color:#4aaaa5;
 				color: #ffffff;
 				font-family: 'Georgia', Times, Times New Roman, serif;
@@ -33,7 +33,7 @@
 			.background{
 				background-color:#cccccc;
 			}
-			.content {
+			.content { 
 				height:25px;
 				width:25px;
 				background-color:#FFFFFF;
